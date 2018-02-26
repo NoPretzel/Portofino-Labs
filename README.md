@@ -2,8 +2,8 @@
 
 Take home assignment for Portofino Labs.
 
-Just wanted to disclose starting ahead I pretty much got most of the code for this project straight out of the docs for 
-[Docker Compose](https://docs.docker.com/compose/gettingstarted/) and a bit from a [Flask authetication snippet](http://flask.pocoo.org/snippets/8/). The REST API is all Python but the total amounts of original JS code is higher.
+Just wanted to disclose starting ahead I got a good chunk of the code for this project straight out of the docs for 
+[Docker Compose](https://docs.docker.com/compose/gettingstarted/) and a bit from a [Flask authetication snippet](http://flask.pocoo.org/snippets/8/). 
 
 Also just a comment on something I think might have been a bit misleading is the diagram:
 
