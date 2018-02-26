@@ -20,4 +20,6 @@ I'm probably thinking about this too much.
 Anway, the default access for the logs page is
 >http://localhost/logs.html
 
-I'm using port 80 for the GUI and 5000 for the API; feel free to change the mappings in docker-compose.yml
+I'm using port 80 for the GUI and 5000 for the API; feel free to change the mappings in docker-compose.yml (also would have to change the ajax request in /static/script.js if you change the REST url).
+
+If you want to access the logs directly the user/pass is admin/secret.
