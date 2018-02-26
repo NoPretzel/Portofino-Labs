@@ -13,7 +13,7 @@ It shows nginx communicating directly with the REST API but the specs say
 
 >Create a static, Nginx served page
 
-If it's static it wouldn't be able to communicate directly; ie it's still the internal client which is requesting the REST API via ajax.
+If it's static it wouldn't be able to communicate directly; ie it's still the internal client which is requesting the REST API via ajax. In practice nginx is actively proxying requests for REST APIs so the diagram still does work in isolation. :)
 
 I'm probably thinking about this too much.
 
