@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Logs: /v1/hello-world</h1>
+    <br />
+    <h2>Raw</h2>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody id="raw-hello-world">
+      </tbody>
+    </table>
+    <br />
+
+    <h2>Aggregate</h2>
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody id="aggregate-hello-world">
+      </tbody>
+    </table>
+
+        <h1>Logs: /v1/logs</h1>
+    <br />
+    <h2>Raw</h2>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody id="raw-all">
+      </tbody>
+    </table>
+    <br />
+
+    <h2>Aggregate</h2>
+    <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">IP</th>
+          <th scope="col">Time</th>
+        </tr>
+      </thead>
+      <tbody id="aggregate-all">
+      </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
